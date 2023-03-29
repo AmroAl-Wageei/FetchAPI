@@ -28,15 +28,25 @@
     <div class="center">
       <h1>Fetch API ( Images + Content )</h1>
       <form action="" id="form">
-        <input type="file" name="file" id="file" /><br />
+        <input
+          type="file"
+          name="file"
+          id="file"
+          accept=".jpg, .png, .pdf"
+          multiple
+        /><br />
         <input
           type="text"
           name="comments"
           id="comments"
           placeholder="File Comment"
-        />
+        /><br><br>
         <button type="submit">Upload File</button>
       </form>
     </div>
+
+    <!-- JS File -->
+    <script src="./fetch.js"></script>
+    <!-- JS File -->
   </body>
 </html>
